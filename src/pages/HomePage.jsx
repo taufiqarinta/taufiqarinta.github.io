@@ -4,24 +4,22 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 
-import HeroImage from "./images/pp-new.png";
-import AboutImage from "./images/about.svg";
-import Proyek1 from "./images/proyek-hervitama.png";
-import Proyek2 from "./images/proyek-akomodasi.png";
-import Proyek3 from "./images/proyek-portalptpn.png";
-import Proyek4 from "./images/proyek-pks.png";
-import Proyek5 from "./images/proyek-bpd.png";
-import Proyek6 from "./images/proyek-oss.png";
+import HeroImage from "../assets/images/pp-new.png";
+import AboutImage from "../assets/images/about.svg";
 
-const Sertif1 = "./images/sertif-ptpn.png";
-const Sertif2 = "./images/sertif-bnsp.png";
-const Sertif3 = "./images/sertif-pertamuda.png";
+import Proyek1 from "../assets/images/proyek-hervitama.png";
+import Proyek2 from "../assets/images/proyek-akomodasi.png";
+import Proyek3 from "../assets/images/proyek-portalptpn.png";
+import Proyek4 from "../assets/images/proyek-pks.png";
+import Proyek5 from "../assets/images/proyek-bpd.png";
+import Proyek6 from "../assets/images/proyek-oss.png";
 
-const CV = "./pdf/CV.pdf";
-
-export { HeroImage, AboutImage, Proyek1, Proyek2, Proyek3, Proyek4, Proyek5, Proyek6, Sertif1, Sertif2, Sertif3, CV };
+import Sertif1 from "../assets/images/sertif-ptpn.png";
+import Sertif2 from "../assets/images/sertif-bnsp.png";
+import Sertif3 from "../assets/images/sertif-pertamuda.png";
 
 
+import CV from "../assets/pdf/CV.pdf";
 
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -76,7 +74,7 @@ const HomePage = () => {
             <a href={CV} target="_blank" rel="noopener noreferrer" className="bg-sky-400 hover:bg-sky-500 transition-all py-2 px-4 text-white shadow rounded-full">Lihat CV Saya <i className="ri-eye-line ms-1"></i></a>
           </div>
           <div className="box">
-            <img src={HeroImage} alt="Hero Image" className="md:w-[400px] md:h-[350px] w-[300px] h-[250px] md:m-15 mx-auto" />
+            <img src="/images/pp-new.png" alt="Hero Image" className="md:w-[400px] md:h-[350px] w-[300px] h-[250px] md:m-15 mx-auto" />
           </div>
         </div>
 
