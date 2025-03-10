@@ -4,22 +4,21 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 
-import HeroImage from "../assets/images/pp-new.png";
-import AboutImage from "../assets/images/about.svg";
+const HeroImage = "/images/pp-nsew.png";
+const AboutImage = "/images/about.svg";
+const Proyek1 = "/images/proyek-hervitama.png";
+const Proyek2 = "/images/proyek-akomodasi.png";
+const Proyek3 = "/images/proyek-portalptpn.png";
+const Proyek4 = "/images/proyek-pks.png";
+const Proyek5 = "/images/proyek-bpd.png";
+const Proyek6 = "/images/proyek-oss.png";
 
-import Proyek1 from "../assets/images/proyek-hervitama.png";
-import Proyek2 from "../assets/images/proyek-akomodasi.png";
-import Proyek3 from "../assets/images/proyek-portalptpn.png";
-import Proyek4 from "../assets/images/proyek-pks.png";
-import Proyek5 from "../assets/images/proyek-bpd.png";
-import Proyek6 from "../assets/images/proyek-oss.png";
+const Sertif1 = "/images/sertif-ptpn.png";
+const Sertif2 = "/images/sertif-bnsp.png";
+const Sertif3 = "/images/sertif-pertamuda.png";
 
-import Sertif1 from "../assets/images/sertif-ptpn.png";
-import Sertif2 from "../assets/images/sertif-bnsp.png";
-import Sertif3 from "../assets/images/sertif-pertamuda.png";
+const CV = "/pdf/CV.pdf";
 
-
-import CV from "../assets/pdf/CV.pdf";
 
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -74,7 +73,7 @@ const HomePage = () => {
             <a href={CV} target="_blank" rel="noopener noreferrer" className="bg-sky-400 hover:bg-sky-500 transition-all py-2 px-4 text-white shadow rounded-full">Lihat CV Saya <i className="ri-eye-line ms-1"></i></a>
           </div>
           <div className="box">
-            <img src="/images/pp-new.png" alt="Hero Image" className="md:w-[400px] md:h-[350px] w-[300px] h-[250px] md:m-15 mx-auto" />
+            <img src={HeroImage} alt="Hero Image" className="md:w-[400px] md:h-[350px] w-[300px] h-[250px] md:m-15 mx-auto" />
           </div>
         </div>
 
