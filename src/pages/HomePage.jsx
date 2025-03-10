@@ -4,22 +4,24 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 
-import HeroImage from "../assets/images/pp-new.png";
-import AboutImage from "../assets/images/about.svg";
+import HeroImage from "./images/pp-new.png";
+import AboutImage from "./images/about.svg";
+import Proyek1 from "./images/proyek-hervitama.png";
+import Proyek2 from "./images/proyek-akomodasi.png";
+import Proyek3 from "./images/proyek-portalptpn.png";
+import Proyek4 from "./images/proyek-pks.png";
+import Proyek5 from "./images/proyek-bpd.png";
+import Proyek6 from "./images/proyek-oss.png";
 
-import Proyek1 from "../assets/images/proyek-hervitama.png";
-import Proyek2 from "../assets/images/proyek-akomodasi.png";
-import Proyek3 from "../assets/images/proyek-portalptpn.png";
-import Proyek4 from "../assets/images/proyek-pks.png";
-import Proyek5 from "../assets/images/proyek-bpd.png";
-import Proyek6 from "../assets/images/proyek-oss.png";
+const Sertif1 = "./images/sertif-ptpn.png";
+const Sertif2 = "./images/sertif-bnsp.png";
+const Sertif3 = "./images/sertif-pertamuda.png";
 
-import Sertif1 from "../assets/images/sertif-ptpn.png";
-import Sertif2 from "../assets/images/sertif-bnsp.png";
-import Sertif3 from "../assets/images/sertif-pertamuda.png";
+const CV = "./pdf/CV.pdf";
+
+export { HeroImage, AboutImage, Proyek1, Proyek2, Proyek3, Proyek4, Proyek5, Proyek6, Sertif1, Sertif2, Sertif3, CV };
 
 
-import CV from "../assets/pdf/CV.pdf";
 
 import AOS from "aos";
 import "aos/dist/aos.css";
